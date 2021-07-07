@@ -1,0 +1,71 @@
+.MasterContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; 
+  position: relative;
+  top: 5rem;
+}
+
+.Container {
+  background-color: rgb(8, 8, 8);
+  width: 70rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.MainContainer{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;  
+}
+
+.ContentForm{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContentForm form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.ContentForm form input{
+  width: 40vh;
+  height: 4.6vh;
+  border-radius: 0.4rem;
+}
+
+.ContentForm a {
+  text-decoration: none;
+  background: #00cc0e;
+  width: 40vh;
+  height: 5vh;
+  margin-top: 0.2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentForm a p{
+  color: black;
+  font-weight: bold;
+}
+
+.ImgCar{
+  padding: 3rem 3rem;
+}
+
+.ImgCar img{
+  max-width: 600px;
+  border-radius: 0.2rem;
+}
+
+
