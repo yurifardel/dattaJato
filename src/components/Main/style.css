@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  /* background: #9c9a9a; */
+  height: 78vh;
+}
+
+.ContainerMain{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ButtonMain{
+  cursor: pointer;
+  border: 4px solid #535353;
+  border-radius: 1rem;
+  
+
+  width: 25vh;
+  height: 10vh;
+}
+
+
+.ButtonMain:hover{
+  transition: 0.5s;
+  border-color: #747373;
+}
+
