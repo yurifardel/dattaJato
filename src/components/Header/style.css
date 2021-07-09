@@ -1,0 +1,9 @@
+.Container{
+  width: 100%;
+  background: #b4b4b4;
+  border-bottom: 3px solid #a7a7a7;
+}
+
+.LinkHeaderLogo .Image{
+  margin: 1rem;
+}
