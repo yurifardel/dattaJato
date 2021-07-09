@@ -1,11 +1,14 @@
 import { Fragment } from 'react';
-import Home from './components/Home/Home';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 import './Global.css'
+
 
 function App() {
   return (
     <Fragment>
-      <Home/>
+      <Header/>
+      <Main/>
     </Fragment>
   );
 }
