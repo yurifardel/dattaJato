@@ -1,12 +1,16 @@
 import './style.css'
+import {Link} from 'react-router-dom'
 
 function Main(){
  return(
    <div className="container">
      <main className="ContainerMain">
-      <button className="ButtonMain" type="button">
+       <Link to='/auth/login'>
+        <button className="ButtonMain" type="button">
           <h3>Faça seu login</h3>
-      </button>
+        </button>
+       </Link>
+      
    </main>
    </div>
    
