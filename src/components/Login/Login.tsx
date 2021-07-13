@@ -8,7 +8,7 @@ function Login(){
       <div className="ContentForm">
         <h1>Faça seu login</h1>
         <form action="">
-          <input type="text"  placeholder="Digite seu email"/>
+          <input type="e-mail"  placeholder="Digite seu email"/>
           <input type="password" placeholder="Digite sua senha"/>
           <Link to="/auth/sucess" id="ButtonId">
             <button>
@@ -18,7 +18,7 @@ function Login(){
           
 
           <Link to="/auth/register" id="RegisterLink">
-            Clique para cadastrar
+            <p >Clique para cadastrar</p> 
           </Link>
         </form>
       </div>
