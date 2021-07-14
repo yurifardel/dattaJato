@@ -1,24 +1,26 @@
-.ContainerLogin{
-  
+.container{
   display: flex;
-  margin: 10vh;
-  flex-direction:row-reverse;
   align-items: center;
-  background: #ffffff;
-  border-radius: 5px;
-  padding: 20vh;
-  /* background-image: url("../../assets/carro.gif") ; */
-  background-repeat: no-repeat;
-  
+  flex-direction: column;
+}
+
+.ContainerLogin{
+  display: flex;
+  margin: 12rem;
+  max-width: 1400px;   
+}
+
+.ContainerLogin img{
+  width: 30rem;
+  position: relative;
+  right: 3rem;
 }
 
 .ContentForm{
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: relative;
-
-  right: 2rem;
+  
 }
 
 .ContentForm form{
@@ -74,8 +76,3 @@
   transition: 1s;
 }
 
-.ContainerLogin img{
-  width: 50rem;
-  position: relative;
-  right: 10rem;
-}
