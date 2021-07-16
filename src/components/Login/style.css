@@ -7,7 +7,8 @@
 .ContainerLogin{
   display: flex;
   margin: 12rem;
-  max-width: 1400px;   
+  max-width: 1200px;
+  height: 100%;  
 }
 
 .ContainerLogin img{
@@ -20,7 +21,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  
+  background: #858482;  
+  padding: 4.2rem;
+  border-radius: 1rem;
+ 
 }
 
 .ContentForm form{
