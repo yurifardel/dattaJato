@@ -4,33 +4,33 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function CarouselComponent() {
   return (
     <Carousel style={{background: "black"}}>
-      <Carousel.Item interval={3000} style={{height: "40rem"}}>
+      <Carousel.Item interval={2000} style={{height: "45rem"}}>
         <img
           className=" d-block  w-100"
-          src="https://cdn.acritica.net/upload/dn_noticia/2019/09/1567783836.jpg"
+          src="https://i.pinimg.com/originals/af/ab/46/afab4635c7491943d71528a650e95673.gif"
           alt="First slide"
-          style={{display: "flex", position: 'relative', bottom: "5rem"}}
+          style={{display: "flex", position: 'relative', bottom: "7rem"}}
 
 
         />
         
       </Carousel.Item>
-      <Carousel.Item interval={3000} style={{height: "40rem"}}>
+      <Carousel.Item interval={2000} style={{height: "45rem"}}>
         <img
           className="d-block w-100 "
-          src="http://blog.dubstore.com.br/wp-content/uploads/2018/08/image_1347_0.jpg"
+          src="https://i.pinimg.com/originals/16/2c/df/162cdfa326e0640b3bebf604d36fc6b3.gif"
           alt="Second slide"
-          style={{display: "flex", position: 'relative', bottom: "5rem"}}
+          style={{display: "flex", position: 'relative', bottom: "7rem"}}
 
         />
     
       </Carousel.Item>
-      <Carousel.Item interval={3000} style={{height: "40rem"}}>
+      <Carousel.Item interval={2000} style={{height: "45rem"}}>
         <img
           className="d-block w-100"
-          src="https://pordentrodeminas.com.br/wp-content/uploads/2019/07/como-lavar-o-carro-maneira-certa-economica.jpg"
+          src="https://i.pinimg.com/originals/cf/d2/eb/cfd2ebac049f3bcc04016c877415503e.gif"
           alt="Third slide"
-          style={{display: "flex", position: 'relative', bottom: "5rem"}}
+          style={{display: "flex", position: 'relative', bottom: "7rem"}}
 
         />
      
