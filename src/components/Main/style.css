@@ -9,18 +9,18 @@
 
 .ButtonMain{
   cursor: pointer;
-  border: 4px solid #06b7c7;
   border-radius: 1rem;
-  
+  border: 0;
   background:#05b2dd;
   width: 40vh;
   height: 10vh;
+  box-shadow: 3px 3px 3px black;
 }
 
 
 .ButtonMain:hover{
   transition: 0.5s;
-  border-color: #097dca;
+  background: #097dca;
 } 
 
 
