@@ -3,8 +3,8 @@ import './style.css';
 
 function Register() {
   return (
-    <div className="Container">
-      <div className="content">
+    <div className="ContainerRegister">
+      <div className="ContentRegister">
         <form action="" method="get">
           <fieldset>
             <legend>Registre-se</legend>
