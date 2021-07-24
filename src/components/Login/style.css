@@ -6,9 +6,11 @@
   margin: 0 auto;
   padding: 5rem;
   align-items: center;
-
+  margin-top: 5rem;
 }
-
+.ContainerLogin h1{
+  margin-bottom: 2rem;
+}
 .ContainerLogin img{
   width: 30rem;
   position: relative;
@@ -38,26 +40,32 @@
 .ContentForm form input{
   height: 5vh;
   border-radius: 5px;
-  outline-color: orange;
+  outline-color: rgb(124, 124, 250);
   border: none;
-  /* text-align: center; */
-  /* text-align-last: ; */
  
 }
 
 
 #ButtonId{
   margin: 0 auto;
-  display: flexbox;
 }
 
 #ButtonId button{
   width: 20rem;
+  height: 2.3rem;
   cursor: pointer;
   border-radius: 4rem;
   outline: none;
   border: none;
   background-color: #b1b1b1;
+}
+#ButtonId button p {
+  display: flex;
+  margin: 0 auto;
+  /* align-items: center;
+  justify-content: space-between;
+  align-content: center; */
+  flex-direction: column;
 }
 
 

@@ -1,0 +1,12 @@
+.Container{
+  max-width: 1100px;
+  display: flex;
+  background: red;
+  margin: 0 auto;
+  margin-top: 10vh;
+  /* align-content: center; */
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  border-radius: 4vh 4vh 0 0 ;
+}
