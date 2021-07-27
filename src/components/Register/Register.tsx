@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom';
-import './style.css';
+import { Link } from "react-router-dom";
+import "./style.css";
 
 function Register() {
   return (
@@ -31,13 +31,15 @@ function Register() {
                 <input type="password" name="senha" required />
               </div>
             </div>
+
+          
           </fieldset>
-        </form>
-        <button className="button">
-          <Link to="/">
-            <p>Enter</p>
+          <Link id="button-link" to="/auth/register">
+            <button>
+              Cadastrar
+            </button>
           </Link>
-        </button>
+        </form>
       </div>
     </div>
   );
