@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
-import Header from '../Header/Header';
-import Main from '../Main/Main';
-import Carousel from '../Carousel/Carousel';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Carousel from './components/Carousel/Carousel';
 import '../../Global.css'
 
 

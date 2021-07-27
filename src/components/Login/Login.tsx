@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import './style.css'
 import gifCar from '../../assets/carro.gif';
-import Header from '../Header/Header';
+import Header from '../Home/components/Header/Header';
 
 function Login(){
   return(
