@@ -14,13 +14,13 @@ function Login(){
             <form action="">
               <input type="e-mail"  placeholder="Digite seu email"/>
               <input type="password" placeholder="Digite sua senha"/>
-              <Link to="/auth/sucess" id="ButtonId">
+              <Link to="/auth/login" id="ButtonId">
                 <button>
                   <p>Entrar</p>
                 </button>
               </Link>
 
-              <Link to="/auth/register" id="RegisterLink">
+              <Link to="/register" id="RegisterLink">
                 <p >Clique para cadastrar</p> 
               </Link>
             </form>
