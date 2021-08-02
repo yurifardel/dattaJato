@@ -8,7 +8,8 @@ function Login(){
     <>
       <Header/>
         <div className="ContainerLogin">
-          <img src={gifCar} alt="" />
+        
+
           <div className="ContentForm">
             <h1>Faça seu login</h1>
             <form action="">
